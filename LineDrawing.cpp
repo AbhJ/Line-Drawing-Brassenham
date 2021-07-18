@@ -2,17 +2,22 @@
 using namespace std;
 FILE *fp;
 int x, y, px, py, dx, dy, y_las, x_las, g;
-void upd(int &zz) {
+int get_int(float x) {
+	float y = (int)x;
+	if (x - y >= 0.5)return (int)y + 1;
+	return (int)y;
+}
+void upd(int &val) {
 	if (dx < 0 and dy < 0)
-		zz = zz + 1;
+		val = val + 1;
 	else if (dx > 0 and dy > 0)
-		zz = zz + 1;
+		val = val + 1;
 	else
-		zz = zz - 1;
+		val = val - 1;
 }
 void pr() {
 	// the box
-	fprintf(fp, "<rect x=\"%d\" y =\"%d\" width=\"100%\" height=\"%d\" style=\"fill:rgb(255, 255, 0);stroke-width:%d;stroke:rgb(0,0,255)\" />\n",
+	fprintf(fp, "<rect x=\"%d\" y =\"%d\" width=\"%d\" height=\"%d\" style=\"fill:rgb(255, 255, 0);stroke-width:%d;stroke:rgb(0,0,255)\" />\n",
 	        // corner of cell
 	        x * g, y * g,
 	        // width
@@ -46,15 +51,15 @@ int main() {
 	y1 += r, y2 += r;
 	fprintf(fp, "<?xml version=\"1.0\" standalone=\"no\" ?>\n");
 	fprintf(fp, "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n\n");
-	dx = x2 - x1,
-	dy = y2 - y1,
-	x = x1,
-	y = y1,
+	dx = x2 - x1, dy = y2 - y1;
+	x = x1, y = y1;
 	px = 2 * abs(dy) - abs(dx);
 	py = 2 * abs(dx) - abs(dy);
-	g = min(100, 1600 / max({1, abs(dx) + 1, abs(dy) + 1}));
-	string s = "<svg width=\"" + to_string(max(2 * g * abs(x2 - x1) + 4 * g * max(x1, x2))) + "px\" height=\"" + to_string(max(2 * g * abs(y2 - y1) + 4 * g * max(y1, y2))) + "px\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n";
+	g = min(16, (1 << 30) / max({1, abs(dx) + 1, abs(dy) + 1}));
+	string s = "<svg width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n";
 	fprintf(fp, s.c_str());
+	if (dx > 1e3 or dy > 1e3)
+		g = 16;
 	if (abs(dx) < abs(dy)) {
 		if (dy >= 0)
 			x = x1, y = y1, y_las = y2;
