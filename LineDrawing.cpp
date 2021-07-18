@@ -12,7 +12,7 @@ void upd(int &zz) {
 }
 void pr() {
 	// the box
-	fprintf(fp, "<rect x=\"%d\" y =\"%d\" width=\"%d\" height=\"%d\" style=\"fill:rgb(255, 255, 0);stroke-width:%d;stroke:rgb(0,0,255)\" />\n",
+	fprintf(fp, "<rect x=\"%d\" y =\"%d\" width=\"100%\" height=\"%d\" style=\"fill:rgb(255, 255, 0);stroke-width:%d;stroke:rgb(0,0,255)\" />\n",
 	        // corner of cell
 	        x * g, y * g,
 	        // width
