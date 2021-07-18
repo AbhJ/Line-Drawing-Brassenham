@@ -1,0 +1,1443 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"j",
+				"abhj Single Test"
+			],
+			[
+				"m",
+				"main"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"ke",
+				"keep2"
+			],
+			[
+				"rem",
+				"remo2"
+			],
+			[
+				"kee",
+				"keep2"
+			],
+			[
+				"t",
+				"t"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"e",
+				"erase"
+			],
+			[
+				"be",
+				"beginend"
+			],
+			[
+				"debu",
+				"debug"
+			],
+			[
+				"co",
+				"cour"
+			],
+			[
+				"abh",
+				"abhj Multiple Test"
+			],
+			[
+				"fo",
+				"forv"
+			],
+			[
+				"by_",
+				"by_x"
+			],
+			[
+				"ab",
+				"abhj Multiple Test"
+			],
+			[
+				"ve",
+				"vector"
+			],
+			[
+				"ma",
+				"map"
+			],
+			[
+				"whi",
+				"while"
+			],
+			[
+				"for",
+				"for_"
+			],
+			[
+				"s",
+				"split-string\tsplitString"
+			],
+			[
+				"se",
+				"segment-tree\tsimpleSegmentTree"
+			],
+			[
+				"fi",
+				"findLexicographicRank"
+			],
+			[
+				"pr",
+				"prime_vector_sieve"
+			],
+			[
+				"emp",
+				"emplace"
+			],
+			[
+				"pre",
+				"pos_pre"
+			],
+			[
+				"pos",
+				"pos_pre"
+			],
+			[
+				"cnt",
+				"cnt_no"
+			],
+			[
+				"cnt_",
+				"cnt_yes"
+			],
+			[
+				"ri",
+				"running_sum"
+			],
+			[
+				"jay_bh",
+				"jay_bholenath_jay_bholeneth_pok_pok_pok"
+			],
+			[
+				"dis",
+				"dis_from_ori"
+			],
+			[
+				"di",
+				"dis_from_ori"
+			],
+			[
+				"siz",
+				"sizeof"
+			],
+			[
+				"empalc",
+				"emplace_back"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "LineDrawing.cpp",
+			"settings":
+			{
+				"buffer_size": 2523,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "#include <bits/stdc++.h>"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAmwkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					199,
+					1,
+					"astyleformat",
+					null,
+					"HgAAAC4AAAAAAAAALgAAAAAAAAACAAAAICAuAAAAAAAAAC4AAAAAAAAAAAAAAHcAAAAAAAAAeAAAAAAAAAAAAAAAkAAAAAAAAACRAAAAAAAAAAAAAADVAAAAAAAAANYAAAAAAAAAAAAAANsAAAAAAAAA3AAAAAAAAAAAAAAABwEAAAAAAAAIAQAAAAAAAAAAAABLAQAAAAAAAEwBAAAAAAAAAAAAAPQBAAAAAAAA9QEAAAAAAAAAAAAA9gEAAAAAAAD3AQAAAAAAAAAAAACeAgAAAAAAAJ8CAAAAAAAAAAAAAKACAAAAAAAAoQIAAAAAAAAAAAAArQIAAAAAAACuAgAAAAAAAAAAAACvAgAAAAAAALACAAAAAAAAAAAAAMUCAAAAAAAAxgIAAAAAAAAAAAAAmgYAAAAAAACbBgAAAAAAAAAAAACuBgAAAAAAAK8GAAAAAAAAAAAAALUGAAAAAAAAtgYAAAAAAAAAAAAAFAcAAAAAAAAVBwAAAAAAAAAAAAAhBwAAAAAAACIHAAAAAAAAAAAAADcHAAAAAAAAOAcAAAAAAAAAAAAAZAcAAAAAAABlBwAAAAAAAAAAAAC0BwAAAAAAALUHAAAAAAAAAAAAALsHAAAAAAAAvAcAAAAAAAAAAAAAGggAAAAAAAAbCAAAAAAAAAAAAAAnCAAAAAAAACgIAAAAAAAAAAAAAD0IAAAAAAAAPggAAAAAAAAAAAAAaQgAAAAAAABqCAAAAAAAAAAAAAB2CQAAAAAAAHcJAAAAAAAAAAAAAHgJAAAAAAAAeQkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmwkAAAAAAACbCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					211,
+					1,
+					"delete_word",
+					{
+						"forward": false
+					},
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAC1CQAAI2luY2x1ZGUgPGJpdHMvc3RkYysrLmg+CnVzaW5nIG5hbWVzcGFjZSBzdGQ7CkZJTEUgKmZwOwppbnQgeCwgeSwgcHgsIHB5LCBkeCwgZHksIHlfbGFzLCB4X2xhcywgZzsKaW50IGdldF9pbnQoZmxvYXQgeCkgewoJZmxvYXQgeSA9IChpbnQpeDsKCWlmICh4IC0geSA+PSAwLjUpcmV0dXJuIChpbnQpeSArIDE7CglyZXR1cm4gKGludCl5Owp9CnZvaWQgdXBkKGludCAmenopIHsKCWlmIChkeCA8IDAgYW5kIGR5IDwgMCkKCQl6eiA9IHp6ICsgMTsKCWVsc2UgaWYgKGR4ID4gMCBhbmQgZHkgPiAwKQoJCXp6ID0genogKyAxOwoJZWxzZQoJCXp6ID0genogLSAxOwp9CnZvaWQgcHIoKSB7CglmcHJpbnRmKGZwLCAiPHJlY3QgeD1cIiVkXCIgeSA9XCIlZFwiIHdpZHRoPVwiJWRcIiBoZWlnaHQ9XCIlZFwiIHN0eWxlPVwiZmlsbDpyZ2IoMjU1LCAyNTUsIDApO3N0cm9rZS13aWR0aDolZDtzdHJva2U6cmdiKDAsMCwyNTUpXCIgLz5cbiIsIHggKiBnLCB5ICogZywgZywgZywgbWF4KGcgLyAxNiwgMikpOwoJZnByaW50ZihmcCwgIjxjaXJjbGUgY3g9XCIlZFwiIGN5PVwiJWRcIiByPVwiJWRcIiBzdHJva2U9XCJyZ2IoMCwwLDI1NSlcIiBzdHJva2Utd2lkdGg9XCIlZFwiIGZpbGwgPSBcImJsdWVcIi8+XG4iLCB4ICogZyArIChnID4+IDEpLCB5ICogZyArIChnID4+IDEpLCBtYXgoZyAvIDgsIDQpLCBtYXgoZyAvIDE2LCAyKSk7Cn0KaW50IG1haW4oKSB7CglpbnQgeDEsIHgyLCB5MSwgeTI7Cgljb3V0IDw8ICJFbnRlciBzdGFydCBjby1vcmRpbmF0ZXMgKHNwYWNlZCkiIDw8ICI6ICI7CgljaW4gPj4geDEgPj4geTE7Cgljb3V0IDw8ICJFbnRlciBlbmQgY28tb3JkaW5hdGVzIChzcGFjZWQpIiA8PCAiOiAiOwoJZnAgPSBmb3BlbigiZXguc3ZnIiwgInciKTsKCWNpbiA+PiB4MiA+PiB5MjsKCWludCBsID0gbWF4KHswLCAteDEsIC14Mn0pOwoJaW50IHIgPSBtYXgoezAsIC15MSwgLXkyfSk7Cgl4MSArPSBsLCB4MiArPSBsOwoJeTEgKz0gciwgeTIgKz0gcjsKCWZwcmludGYoZnAsICI8P3htbCB2ZXJzaW9uPVwiMS4wXCIgc3RhbmRhbG9uZT1cIm5vXCIgPz5cbiIpOwoJZnByaW50ZihmcCwgIjwhRE9DVFlQRSBzdmcgUFVCTElDIFwiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU5cIiBcImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZFwiPlxuXG4iKTsKCWR4ID0geDIgLSB4MSwKCWR5ID0geTIgLSB5MSwKCS8vIGZwcmludGYoZnAsICI8c3ZnIHdpZHRoPVwiMTYwMHB4XCIgaGVpZ2h0PVwiMTYwMHB4XCIgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiIHZlcnNpb249XCIxLjFcIj5cbiIpOwoJeCA9IHgxLAoJeSA9IHkxLAoJcHggPSAyICogYWJzKGR5KSAtIGFicyhkeCk7CglweSA9IDIgKiBhYnMoZHgpIC0gYWJzKGR5KTsKCWcgPSBtaW4oMTAwLCAxNjAwIC8gbWF4KHsxLCBhYnMoZHgpICsgMSwgYWJzKGR5KSArIDF9KSk7CglzdHJpbmcgcyA9ICI8c3ZnIHdpZHRoPVwiIiArIHRvX3N0cmluZygyICogZyAqIGFicyh4MiAtIHgxKSkgKyAicHhcIiBoZWlnaHQ9XCIiICsgdG9fc3RyaW5nKDIgKiBnICogYWJzKHkyIC0geTEpKSArICJweFwiIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIiB2ZXJzaW9uPVwiMS4xXCI+XG4iOwoJZnByaW50ZihmcCwgcy5jX3N0cigpKTsKCS8vIGludCBnID0gNTA7CglpZiAoYWJzKGR4KSA8IGFicyhkeSkpIHsKCQlpZiAoZHkgPj0gMCkKCQkJeCA9IHgxLCB5ID0geTEsIHlfbGFzID0geTI7CgkJZWxzZQoJCQl4ID0geDIsIHkgPSB5MiwgeV9sYXMgPSB5MTsKCQlwcigpOwoJCXdoaWxlICh5ICE9IHlfbGFzKSB7CgkJCXkgPSB5ICsgMTsKCQkJaWYgKHB5IDw9IDApCgkJCQlweSA9IHB5ICsgMiAqIGFicyhkeCk7CgkJCWVsc2UgewoJCQkJdXBkKHgpOwoJCQkJcHkgPSBweSArIDIgKiAoYWJzKGR4KSAtIGFicyhkeSkpOwoJCQl9CgkJCXByKCk7CgkJfQoJfQoJZWxzZSB7CgkJaWYgKGR4ID49IDApCgkJCXggPSB4MSwgeSA9IHkxLCB4X2xhcyA9IHgyOwoJCWVsc2UKCQkJeCA9IHgyLCB5ID0geTIsIHhfbGFzID0geDE7CgkJcHIoKTsKCQl3aGlsZSAoeCAhPSB4X2xhcykgewoJCQl4ID0geCArIDE7CgkJCWlmIChweCA8IDApCgkJCQlweCA9IHB4ICsgMiAqIGFicyhkeSk7CgkJCWVsc2UgewoJCQkJdXBkKHkpOwoJCQkJcHggPSBweCArIDIgKiAoYWJzKGR5KSAtIGFicyhkeCkpOwoJCQl9CgkJCXByKCk7CgkJfQoJfQoJZnByaW50ZihmcCwgIjxsaW5lIHgxPVwiJWRcIiB5MT1cIiVkXCIgeDI9XCIlZFwiIHkyPVwiJWRcIiBzdHlsZT1cInN0cm9rZTpyZ2IoMCwwLDI1NSk7c3Ryb2tlLXdpZHRoOiVkXCIgLz5cbiIsIHgxICogZyArIChnID4+IDEpLCB5MSAqIGcgKyAoZyA+PiAxKSwgeDIgKiBnICsgKGcgPj4gMSksIHkyICogZyArIChnID4+IDEpLCBtYXgoZyAvIDE2LCAyKSk7CglmcHJpbnRmKGZwLCAiPC9zdmc+XG4iKTsKCWZjbG9zZShmcCk7CglyZXR1cm4gMDsKfQ",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAC1CQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					212,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAmwkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					214,
+					1,
+					"astyleformat",
+					null,
+					"HgAAAC4AAAAAAAAALgAAAAAAAAACAAAAICAuAAAAAAAAAC4AAAAAAAAAAAAAAHcAAAAAAAAAeAAAAAAAAAAAAAAAkAAAAAAAAACRAAAAAAAAAAAAAADVAAAAAAAAANYAAAAAAAAAAAAAANsAAAAAAAAA3AAAAAAAAAAAAAAABwEAAAAAAAAIAQAAAAAAAAAAAABLAQAAAAAAAEwBAAAAAAAAAAAAAPQBAAAAAAAA9QEAAAAAAAAAAAAA9gEAAAAAAAD3AQAAAAAAAAAAAACeAgAAAAAAAJ8CAAAAAAAAAAAAAKACAAAAAAAAoQIAAAAAAAAAAAAArQIAAAAAAACuAgAAAAAAAAAAAACvAgAAAAAAALACAAAAAAAAAAAAAMUCAAAAAAAAxgIAAAAAAAAAAAAAmgYAAAAAAACbBgAAAAAAAAAAAACuBgAAAAAAAK8GAAAAAAAAAAAAALUGAAAAAAAAtgYAAAAAAAAAAAAAFAcAAAAAAAAVBwAAAAAAAAAAAAAhBwAAAAAAACIHAAAAAAAAAAAAADcHAAAAAAAAOAcAAAAAAAAAAAAAZAcAAAAAAABlBwAAAAAAAAAAAAC0BwAAAAAAALUHAAAAAAAAAAAAALsHAAAAAAAAvAcAAAAAAAAAAAAAGggAAAAAAAAbCAAAAAAAAAAAAAAnCAAAAAAAACgIAAAAAAAAAAAAAD0IAAAAAAAAPggAAAAAAAAAAAAAaQgAAAAAAABqCAAAAAAAAAAAAAB2CQAAAAAAAHcJAAAAAAAAAAAAAHgJAAAAAAAAeQkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmwkAAAAAAACbCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					240,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAIcGAAAAAAAAhwYAAAAAAAAQAAAACS8vIGludCBnID0gNTA7Cg",
+					"AQAAAAAAAAABAAAAlgYAAAAAAACWBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					269,
+					1,
+					"insert",
+					{
+						"characters": "max("
+					},
+					"BAAAAOEFAAAAAAAA4gUAAAAAAAAAAAAA4gUAAAAAAADjBQAAAAAAAAAAAADjBQAAAAAAAOQFAAAAAAAAAAAAAOQFAAAAAAAA5QUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4QUAAAAAAADhBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					272,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAPkFAAAAAAAA+gUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+QUAAAAAAAD5BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					273,
+					1,
+					"insert",
+					{
+						"characters": " 2"
+					},
+					"AgAAAPoFAAAAAAAA+wUAAAAAAAAAAAAA+wUAAAAAAAD8BQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+gUAAAAAAAD6BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					274,
+					1,
+					"insert",
+					{
+						"characters": " *"
+					},
+					"AgAAAPwFAAAAAAAA/QUAAAAAAAAAAAAA/QUAAAAAAAD+BQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/AUAAAAAAAD8BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					275,
+					1,
+					"insert",
+					{
+						"characters": " g"
+					},
+					"AgAAAP4FAAAAAAAA/wUAAAAAAAAAAAAA/wUAAAAAAAAABgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/gUAAAAAAAD+BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					277,
+					1,
+					"insert",
+					{
+						"characters": ")"
+					},
+					"AQAAAAEGAAAAAAAAAgYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAQYAAAAAAAABBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					281,
+					1,
+					"insert_snippet",
+					{
+						"contents": "(${0:$SELECTION})"
+					},
+					"AgAAACIGAAAAAAAAIgYAAAAAAAAUAAAAMiAqIGcgKiBhYnMoeTIgLSB5MSkiBgAAAAAAADgGAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIgYAAAAAAAA2BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					283,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAADcGAAAAAAAAOAYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANwYAAAAAAAA3BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					284,
+					1,
+					"insert",
+					{
+						"characters": " 2"
+					},
+					"AgAAADgGAAAAAAAAOQYAAAAAAAAAAAAAOQYAAAAAAAA6BgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAYAAAAAAAA4BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					285,
+					1,
+					"insert",
+					{
+						"characters": " *"
+					},
+					"AgAAADoGAAAAAAAAOwYAAAAAAAAAAAAAOwYAAAAAAAA8BgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgYAAAAAAAA6BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					286,
+					1,
+					"insert",
+					{
+						"characters": " h"
+					},
+					"AgAAADwGAAAAAAAAPQYAAAAAAAAAAAAAPQYAAAAAAAA+BgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPAYAAAAAAAA8BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					287,
+					1,
+					"left_delete",
+					null,
+					"AQAAAD0GAAAAAAAAPQYAAAAAAAABAAAAaA",
+					"AQAAAAAAAAABAAAAPgYAAAAAAAA+BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					288,
+					1,
+					"insert",
+					{
+						"characters": "gh"
+					},
+					"AgAAAD0GAAAAAAAAPgYAAAAAAAAAAAAAPgYAAAAAAAA/BgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPQYAAAAAAAA9BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					289,
+					1,
+					"left_delete",
+					null,
+					"AQAAAD4GAAAAAAAAPgYAAAAAAAABAAAAaA",
+					"AQAAAAAAAAABAAAAPwYAAAAAAAA/BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					292,
+					1,
+					"insert",
+					{
+						"characters": "max"
+					},
+					"AwAAACIGAAAAAAAAIwYAAAAAAAAAAAAAIwYAAAAAAAAkBgAAAAAAAAAAAAAkBgAAAAAAACUGAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIgYAAAAAAAAiBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					353,
+					1,
+					"delete_word",
+					{
+						"forward": false
+					},
+					"AgAAADwGAAAAAAAAPAYAAAAAAAABAAAAMvsFAAAAAAAA+wUAAAAAAAABAAAAMg",
+					"AQAAAAAAAAACAAAA/AUAAAAAAAD8BQAAAAAAAAAAAAAAAPC/PQYAAAAAAAA9BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					354,
+					1,
+					"insert",
+					{
+						"characters": "10"
+					},
+					"BAAAADsGAAAAAAAAPAYAAAAAAAAAAAAA+wUAAAAAAAD8BQAAAAAAAAAAAAA9BgAAAAAAAD4GAAAAAAAAAAAAAPwFAAAAAAAA/QUAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA+wUAAAAAAAD7BQAAAAAAAAAAAAAAAPC/OwYAAAAAAAA7BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					374,
+					1,
+					"delete_word",
+					{
+						"forward": false
+					},
+					"AgAAAD0GAAAAAAAAPQYAAAAAAAACAAAAMTD7BQAAAAAAAPsFAAAAAAAAAgAAADEw",
+					"AQAAAAAAAAACAAAA/QUAAAAAAAD9BQAAAAAAAAAAAAAAAPC/PwYAAAAAAAA/BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					375,
+					1,
+					"insert",
+					{
+						"characters": "4"
+					},
+					"AgAAADsGAAAAAAAAPAYAAAAAAAAAAAAA+wUAAAAAAAD8BQAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA+wUAAAAAAAD7BQAAAAAAAAAAAAAAAPC/OwYAAAAAAAA7BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					469,
+					2,
+					"left_delete",
+					null,
+					"AgAAAIYFAAAAAAAAhgUAAAAAAAABAAAAboUFAAAAAAAAhQUAAAAAAAABAAAAaQ",
+					"AQAAAAAAAAABAAAAhwUAAAAAAACHBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					470,
+					1,
+					"insert",
+					{
+						"characters": "ax"
+					},
+					"AgAAAIUFAAAAAAAAhgUAAAAAAAAAAAAAhgUAAAAAAACHBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhQUAAAAAAACFBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					481,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIoFAAAAAAAAigUAAAAAAAABAAAAMA",
+					"AQAAAAAAAAABAAAAiwUAAAAAAACLBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					502,
+					1,
+					"delete_word",
+					{
+						"forward": false
+					},
+					"AgAAADsGAAAAAAAAOwYAAAAAAAABAAAANPoFAAAAAAAA+gUAAAAAAAABAAAANA",
+					"AQAAAAAAAAACAAAA+wUAAAAAAAD6BQAAAAAAAAAAAAAAAPC/OwYAAAAAAAA8BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					503,
+					1,
+					"insert",
+					{
+						"characters": "10"
+					},
+					"BAAAADoGAAAAAAAAOwYAAAAAAAAAAAAA+gUAAAAAAAD7BQAAAAAAAAAAAAA8BgAAAAAAAD0GAAAAAAAAAAAAAPsFAAAAAAAA/AUAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA+gUAAAAAAAD6BQAAAAAAAAAAAAAAAPC/OgYAAAAAAAA6BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					510,
+					2,
+					"left_delete",
+					null,
+					"AgAAAIYFAAAAAAAAhgUAAAAAAAABAAAAeIUFAAAAAAAAhQUAAAAAAAABAAAAYQ",
+					"AQAAAAAAAAABAAAAhwUAAAAAAACHBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					511,
+					1,
+					"insert",
+					{
+						"characters": "in"
+					},
+					"AgAAAIUFAAAAAAAAhgUAAAAAAAAAAAAAhgUAAAAAAACHBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhQUAAAAAAACFBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					534,
+					1,
+					"insert",
+					{
+						"characters": "0"
+					},
+					"AQAAAIoFAAAAAAAAiwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAigUAAAAAAACKBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					556,
+					3,
+					"delete_word",
+					{
+						"forward": false
+					},
+					"BgAAAEIGAAAAAAAAQgYAAAAAAAABAAAAZwAGAAAAAAAAAAYAAAAAAAABAAAAZz8GAAAAAAAAPwYAAAAAAAACAAAAKiD+BQAAAAAAAP4FAAAAAAAAAgAAACogOgYAAAAAAAA6BgAAAAAAAAMAAAAxMCD7BQAAAAAAAPsFAAAAAAAAAwAAADEwIA",
+					"AQAAAAAAAAACAAAAAQYAAAAAAAABBgAAAAAAAAAAAAAAAPC/QwYAAAAAAABDBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					557,
+					2,
+					"left_delete",
+					null,
+					"BAAAADYGAAAAAAAANgYAAAAAAAABAAAAIPoFAAAAAAAA+gUAAAAAAAABAAAAIDQGAAAAAAAANAYAAAAAAAABAAAALPkFAAAAAAAA+QUAAAAAAAABAAAALA",
+					"AQAAAAAAAAACAAAA+wUAAAAAAAD7BQAAAAAAAAAAAAAAAPC/NwYAAAAAAAA3BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					558,
+					1,
+					"insert",
+					{
+						"characters": " +"
+					},
+					"BAAAADMGAAAAAAAANAYAAAAAAAAAAAAA+QUAAAAAAAD6BQAAAAAAAAAAAAA1BgAAAAAAADYGAAAAAAAAAAAAAPoFAAAAAAAA+wUAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA+QUAAAAAAAD5BQAAAAAAAAAAAAAAAPC/MwYAAAAAAAAzBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					559,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AgAAADcGAAAAAAAAOAYAAAAAAAAAAAAA+wUAAAAAAAD8BQAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA+wUAAAAAAAD7BQAAAAAAAAAAAAAAAPC/NwYAAAAAAAA3BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					560,
+					1,
+					"insert",
+					{
+						"characters": "k"
+					},
+					"AgAAADkGAAAAAAAAOgYAAAAAAAAAAAAA/AUAAAAAAAD9BQAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA/AUAAAAAAAD8BQAAAAAAAAAAAAAAAPC/OQYAAAAAAAA5BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					561,
+					1,
+					"left_delete",
+					null,
+					"AgAAADoGAAAAAAAAOgYAAAAAAAABAAAAa/wFAAAAAAAA/AUAAAAAAAABAAAAaw",
+					"AQAAAAAAAAACAAAA/QUAAAAAAAD9BQAAAAAAAAAAAAAAAPC/OwYAAAAAAAA7BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					562,
+					1,
+					"insert",
+					{
+						"characters": "min"
+					},
+					"BgAAADkGAAAAAAAAOgYAAAAAAAAAAAAA/AUAAAAAAAD9BQAAAAAAAAAAAAA7BgAAAAAAADwGAAAAAAAAAAAAAP0FAAAAAAAA/gUAAAAAAAAAAAAAPQYAAAAAAAA+BgAAAAAAAAAAAAD+BQAAAAAAAP8FAAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA/AUAAAAAAAD8BQAAAAAAAAAAAAAAAPC/OQYAAAAAAAA5BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					563,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AgAAAP8FAAAAAAAAAQYAAAAAAAAAAAAAQQYAAAAAAABDBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA/wUAAAAAAAD/BQAAAAAAAAAAAAAAAPC/PwYAAAAAAAA/BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					565,
+					2,
+					"left_delete",
+					null,
+					"BAAAAEAGAAAAAAAAQAYAAAAAAAABAAAAbv4FAAAAAAAA/gUAAAAAAAABAAAAbj4GAAAAAAAAPgYAAAAAAAABAAAAaf0FAAAAAAAA/QUAAAAAAAABAAAAaQ",
+					"AQAAAAAAAAACAAAA/wUAAAAAAAD/BQAAAAAAAAAAAAAAAPC/QQYAAAAAAABBBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					566,
+					1,
+					"insert",
+					{
+						"characters": "ax"
+					},
+					"BAAAAD0GAAAAAAAAPgYAAAAAAAAAAAAA/QUAAAAAAAD+BQAAAAAAAAAAAAA/BgAAAAAAAEAGAAAAAAAAAAAAAP4FAAAAAAAA/wUAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA/QUAAAAAAAD9BQAAAAAAAAAAAAAAAPC/PQYAAAAAAAA9BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					571,
+					1,
+					"paste",
+					null,
+					"AgAAAEIGAAAAAAAARAYAAAAAAAAAAAAAAAYAAAAAAAACBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAPC/QgYAAAAAAABCBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					574,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AgAAAEYGAAAAAAAARwYAAAAAAAAAAAAAAgYAAAAAAAADBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAAAgYAAAAAAAACBgAAAAAAAAAAAAAAAPC/RgYAAAAAAABGBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					575,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AgAAAEgGAAAAAAAASQYAAAAAAAAAAAAAAwYAAAAAAAAEBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAAAwYAAAAAAAADBgAAAAAAAAAAAAAAAPC/SAYAAAAAAABIBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					580,
+					1,
+					"paste",
+					null,
+					"AgAAAEoGAAAAAAAATAYAAAAAAAAAAAAABAYAAAAAAAAGBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAABAYAAAAAAAAEBgAAAAAAAAAAAAAAAPC/SgYAAAAAAABKBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					582,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"AgAAAEQGAAAAAAAARQYAAAAAAAAAAAAA/AUAAAAAAAD9BQAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA/AUAAAAAAAD8BQAAAAAAAAAAAAAAAPC/RAYAAAAAAABEBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					583,
+					1,
+					"insert",
+					{
+						"characters": " *"
+					},
+					"BAAAAEYGAAAAAAAARwYAAAAAAAAAAAAA/QUAAAAAAAD+BQAAAAAAAAAAAABIBgAAAAAAAEkGAAAAAAAAAAAAAP4FAAAAAAAA/wUAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA/QUAAAAAAAD9BQAAAAAAAAAAAAAAAPC/RgYAAAAAAABGBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					584,
+					1,
+					"insert",
+					{
+						"characters": " g"
+					},
+					"BAAAAEoGAAAAAAAASwYAAAAAAAAAAAAA/wUAAAAAAAAABgAAAAAAAAAAAABMBgAAAAAAAE0GAAAAAAAAAAAAAAAGAAAAAAAAAQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA/wUAAAAAAAD/BQAAAAAAAAAAAAAAAPC/SgYAAAAAAABKBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					585,
+					1,
+					"insert",
+					{
+						"characters": " *"
+					},
+					"BAAAAE4GAAAAAAAATwYAAAAAAAAAAAAAAQYAAAAAAAACBgAAAAAAAAAAAABQBgAAAAAAAFEGAAAAAAAAAAAAAAIGAAAAAAAAAwYAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAAAQYAAAAAAAABBgAAAAAAAAAAAAAAAPC/TgYAAAAAAABOBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					586,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AgAAAFIGAAAAAAAAUwYAAAAAAAAAAAAAAwYAAAAAAAAEBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAAAwYAAAAAAAADBgAAAAAAAAAAAAAAAPC/UgYAAAAAAABSBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					598,
+					1,
+					"delete_word",
+					{
+						"forward": false
+					},
+					"AgAAAEwGAAAAAAAATAYAAAAAAAACAAAAMiD8BQAAAAAAAPwFAAAAAAAAAgAAADIg",
+					"AQAAAAAAAAACAAAA/gUAAAAAAAD+BQAAAAAAAAAAAAAAAPC/TgYAAAAAAABOBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					599,
+					1,
+					"insert",
+					{
+						"characters": "4"
+					},
+					"AgAAAEoGAAAAAAAASwYAAAAAAAAAAAAA/AUAAAAAAAD9BQAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA/AUAAAAAAAD8BQAAAAAAAAAAAAAAAPC/SgYAAAAAAABKBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					600,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AgAAAEwGAAAAAAAATQYAAAAAAAAAAAAA/QUAAAAAAAD+BQAAAAAAAAAAAAA",
+					"AQAAAAAAAAACAAAA/QUAAAAAAAD9BQAAAAAAAAAAAAAAAPC/TAYAAAAAAABMBgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/cp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cp.sublime-build",
+					"Variant Run"
+				]
+			],
+			[
+				"Packages/User/cp.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ww",
+				"Word Wrap: Toggle"
+			],
+			[
+				"track",
+				"CodeTimeTracker: Open Dashboard"
+			],
+			[
+				"uope",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"reso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"highli",
+				"HighlightWords: Toggle Settings"
+			],
+			[
+				"docu",
+				"Tasks: New document"
+			],
+			[
+				"docume",
+				"Tasks: New document"
+			],
+			[
+				"new ",
+				"Tasks: New"
+			],
+			[
+				"tesk",
+				"Tasks: Open Link"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"trac",
+				"CodeTimeTracker: Open Dashboard"
+			],
+			[
+				"ope",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"color s ",
+				"UI: Select Color Scheme"
+			],
+			[
+				"open re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"tra",
+				"Trim Trailing White Space"
+			],
+			[
+				"open r",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"open reso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"snippe",
+				"Snippet: For Loop"
+			],
+			[
+				"revers",
+				"Permute Lines: Reverse"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"col",
+				"Color Picker"
+			],
+			[
+				"color p",
+				"Color Picker"
+			],
+			[
+				"code time",
+				"CodeTimeTracker: Open Dashboard"
+			],
+			[
+				"tracke",
+				"CodeTimeTracker: Open Dashboard"
+			],
+			[
+				"teacke",
+				"CodeTimeTracker: Open Dashboard"
+			],
+			[
+				"codeti",
+				"Code Time: Show Tree View"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"openre",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"opw",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"time",
+				"Code Time: Show Tree View"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"idne",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"idne'",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indr",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"trail",
+				"Trim Trailing White Space"
+			],
+			[
+				"package re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packageres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"close ",
+				"File: Close All"
+			],
+			[
+				"files",
+				"File: Save All"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"fodl m",
+				"Fold Comments"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"fold ",
+				"Code Folding: Fold"
+			],
+			[
+				"color highli",
+				"Preferences: Color Highlight Settings"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Goto Error"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"alignme",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"permu",
+				"Permute Lines: Shuffle"
+			],
+			[
+				"lowee",
+				"Convert Case: Lower Case"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"ui ",
+				"UI: Select Color Scheme"
+			],
+			[
+				"ui co",
+				"UI: Select Color Scheme"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ui colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"select ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"",
+				"Code Folding: Fold All"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"color sc",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color sch",
+				"UI: Select Color Scheme"
+			],
+			[
+				"snipp",
+				"Snippet: cp abhj c++"
+			],
+			[
+				"material",
+				"Material Theme: Configuration"
+			],
+			[
+				"paackag",
+				"Package Control: Install Package"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"package res",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"i",
+				"Indexing Status"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 224.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/abj/Documents/BTP"
+	],
+	"file_history":
+	[
+		"/tmp/mozilla_abj0/a.cpp",
+		"/home/abj/Documents/BTP/ex.svg",
+		"/home/abj/Documents/BTP/LineDrawing",
+		"/home/abj/Documents/BTP/runfile",
+		"/home/abj/Documents/cp/contest/output.txt",
+		"/home/abj/Documents/cp/saved_files/atcoder_abc210d.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1530E.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1530D.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1530C.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1530B.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1530A.cpp",
+		"/home/abj/Documents/cp/contest/e.cpp",
+		"/home/abj/Documents/cp/contest/b.cpp",
+		"/home/abj/Documents/cp/contest/c.cpp",
+		"/home/abj/Documents/cp/contest/d.cpp",
+		"/home/abj/Documents/cp/contest/f.cpp",
+		"/home/abj/Documents/cp/saved_files/leetcode/1935.cpp",
+		"/home/abj/Documents/cp/saved_files/leetcode/1936.cpp",
+		"/home/abj/Documents/cp/saved_files/leetcode/1937.cpp",
+		"/home/abj/Documents/cp/contest/a.cpp",
+		"/home/abj/Downloads/Leetcode-Submission-Downloader-master/leetcodeDownloader.py",
+		"/home/abj/.config/sublime-text-3/Packages/User/Mariana.sublime-color-scheme",
+		"/home/abj/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/abj/Downloads/Leetcode-Submission-Downloader-master/leetcodeHTTPHelper.pyc",
+		"/home/abj/Documents/cp/saved_files/abc210_b.cpp",
+		"/home/abj/Documents/cp/contest/abc210_c.cpp",
+		"/home/abj/Documents/cp/saved_files/abc210_a.cpp",
+		"/home/abj/Documents/cp/saved_files/leetcode/1922.cpp",
+		"/home/abj/Documents/cp/saved_files/leetcode/1927.pdf",
+		"/home/abj/Documents/cp/saved_files/leetcode/1926.cpp",
+		"/home/abj/Documents/cp/saved_files/leetcode/1927.cpp",
+		"/home/abj/Documents/cp/saved_files/leetcode/1411.cpp",
+		"/home/abj/Documents/cp/saved_files/leetcode/1931.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1550A.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1550B.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1550C.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1546D.cpp",
+		"/home/abj/.config/sublime-text-3/Packages/PlainTasks/Default (Linux).sublime-keymap",
+		"/home/abj/Documents/cp/templates/template.cpp",
+		"/home/abj/.config/sublime-text-3/Packages/HighlightWords/HighlightWords.sublime-settings",
+		"/home/abj/.config/sublime-text-3/Packages/User/HighlightWords.sublime-settings",
+		"/home/abj/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/usr/local/lib/python3.8/dist-packages/leetcodecli/cli.py",
+		"/home/abj/Documents/cp/saved_files/abc204_e.cpp",
+		"/home/abj/Documents/cp/stress_test/a.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1546A.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1546B.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1546C.cpp",
+		"/home/abj/Documents/cp/saved_files/abc204_c.cpp",
+		"/home/abj/Documents/cp/contest/input.txt",
+		"/home/abj/Documents/cp/saved_files/codechefBNSONSTR.cpp",
+		"/home/abj/Documents/cp/saved_files/codechefWAV2.cpp",
+		"/home/abj/Documents/cp/saved_files/atcoder_abc206d.cpp",
+		"/home/abj/Documents/cp/contest/atcoder/dsu",
+		"/home/abj/Documents/cp/contest/atcoder/dsu.hpp",
+		"/home/abj/Documents/cp/contest/h.cpp",
+		"/home/abj/Documents/cp/saved_files/atcoder_abc206e.cpp",
+		"/tmp/mozilla_abj0/segtree.cpp",
+		"/home/abj/Downloads/Telegram Desktop/6MkNsLbk.cpp",
+		"/home/abj/Documents/cp/saved_files/output.txt",
+		"/home/abj/Documents/cp/saved_files/input.txt",
+		"/home/abj/Documents/cp/saved_files/codeforces1538G.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1453D.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1537A.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1537B.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1537C.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1537D.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1537E1.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1537D_try.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1400D.cpp",
+		"/home/abj/.config/sublime-text-3/Packages/User/trie.sublime-snippet",
+		"/home/abj/Documents/cp/templates/segment_tree.cpp",
+		"/home/abj/.config/sublime-text-3/Packages/User/debugger.sublime-snippet",
+		"/home/abj/.config/sublime-text-3/Packages/User/Modulo.sublime-snippet",
+		"/home/abj/Documents/cp/saved_files/codeforces1523E.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1523D.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces706D.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1262D2_using_segment_tree.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1262D2.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1512F.cpp",
+		"/home/abj/Documents/cp/contest/atcoder/LICENSE",
+		"/home/abj/Documents/cp/saved_files/atcoder_abc205f.cpp",
+		"/home/abj/Documents/cp/contest/atcoder/all",
+		"/home/abj/Documents/cp/contest/a.txt",
+		"/home/abj/Documents/cp/saved_files/atcoder_abc205e.cpp",
+		"/opt/sublime_text/sublime_text",
+		"/home/abj/Documents/cp/contest/a.c#",
+		"/home/abj/Documents/cp/contest/a.C",
+		"/home/abj/Documents/cp/contest/a.c+-",
+		"/home/abj/Documents/cp/contest/a.c++",
+		"/home/abj/Documents/cp/contest/a.c",
+		"/home/abj/Documents/cp/contest/a.cc",
+		"/home/abj/Documents/cp/saved_files/atcoder_abc205d.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces550D.cpp",
+		"/media/abj/Seagate Backup Plus Drive Ab J M/telegram/[AnimeRG] Food Wars! (Season 01) EP 01-24 (Shokugeki no Soma) [720p] [Dual-Audio] [BD] [HEVC] [x265] [pseudo]/a.txt",
+		"/home/abj/Documents/cp/saved_files/atcoder_arc122b.cpp",
+		"/home/abj/Documents/cp/saved_files/atcoder_arc122.cpp",
+		"/home/abj/Documents/cp/saved_files/atcoder_arc122a.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1538F.cpp",
+		"/home/abj/Documents/cp/saved_files/codeforces1538C.cpp",
+		"/home/abj/.config/sublime-text-3/Packages/C++/Snippets/030-for-int-loop-(fori).sublime-snippet",
+		"/home/abj/.config/sublime-text-3/Packages/User/cp_single_test.sublime-snippet",
+		"/home/abj/.config/sublime-text-3/Packages/User/cp.sublime-snippet",
+		"/home/abj/.config/sublime-text-3/Packages/User/per.sublime-snippet",
+		"/home/abj/.config/sublime-text-3/Packages/C++/Snippets/#ifndef-#define-#endif.sublime-snippet",
+		"/home/abj/.config/sublime-text-3/Packages/C++/Snippets/main()-(main).sublime-snippet",
+		"/home/abj/.config/sublime-text-3/Packages/C++/Snippets/main()-(int main).sublime-snippet",
+		"/home/abj/.config/sublime-text-3/Packages/C++/Snippets/class-..-(class).sublime-snippet",
+		"/home/abj/Documents/cp/saved_files/codeforces1538D.cpp",
+		"/home/abj/.config/gtk-3.0/gtk.css",
+		"/home/abj/Documents/cp/saved_files/codechef long May/output.txt",
+		"/home/abj/Documents/cp/saved_files/codechef long May/input.txt",
+		"/home/abj/Documents/cp/saved_files/codechef long May/codechefDAREA.cpp",
+		"/home/abj/Documents/cp/saved_files/codechef long May/codechefSHROUTE.cpp",
+		"/home/abj/Documents/cp/saved_files/codechef long May/codechefCOCONUT.cpp",
+		"/home/abj/.config/sublime-text-3/Packages/User/ulrich_nielsen.sublime-snippet",
+		"/home/abj/Documents/cp/h.cpp",
+		"/home/abj/Documents/cp/d.cpp",
+		"/home/abj/Documents/cp/c.cpp",
+		"/home/abj/Documents/cp/b.cpp",
+		"/home/abj/Documents/cp/a.cpp",
+		"/home/abj/Documents/cp/template.cpp",
+		"/home/abj/Documents/cp/e.cpp",
+		"/home/abj/Documents/cp/input.txt",
+		"/home/abj/Documents/cp/output.txt",
+		"/home/abj/Documents/cp/g.cpp",
+		"/home/abj/Documents/learning_cp/abc204_d.cpp",
+		"/home/abj/Documents/cp/f.cpp"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 652.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "LineDrawing.cpp",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1555,
+								1555
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include <bits/stdc++.h>",
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 156.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 220.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 90.0
+	},
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 74.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "BTP.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"codeforces1515e.cpp"
+			],
+			[
+				"d.cpp",
+				"d.cpp"
+			],
+			[
+				"e.cpp",
+				"e.cpp"
+			],
+			[
+				"b.c",
+				"b.cpp"
+			],
+			[
+				"a.cpp",
+				"a.cpp"
+			],
+			[
+				"b.cpp",
+				"b.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 55.0,
+		"last_filter": "spf",
+		"selected_items":
+		[
+			[
+				"spf",
+				"simplify_fraction"
+			],
+			[
+				"powM",
+				"powM"
+			],
+			[
+				"",
+				"powM"
+			],
+			[
+				"fact",
+				"calc_fact"
+			]
+		],
+		"width": 521.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

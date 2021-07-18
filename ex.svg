@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="3040px" height="3040px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<rect x="760" y ="1520" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="798" cy="1558" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="836" y ="1596" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="874" cy="1634" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="912" y ="1672" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="950" cy="1710" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="988" y ="1748" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1026" cy="1786" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1064" y ="1824" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1102" cy="1862" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1140" y ="1900" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1178" cy="1938" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1216" y ="1976" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1254" cy="2014" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1292" y ="2052" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1330" cy="2090" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1368" y ="2128" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1406" cy="2166" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1444" y ="2204" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1482" cy="2242" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1520" y ="2280" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1558" cy="2318" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1596" y ="2356" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1634" cy="2394" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1672" y ="2432" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1710" cy="2470" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1748" y ="2508" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1786" cy="2546" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1824" y ="2584" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1862" cy="2622" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1900" y ="2660" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="1938" cy="2698" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="1976" y ="2736" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="2014" cy="2774" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="2052" y ="2812" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="2090" cy="2850" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="2128" y ="2888" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="2166" cy="2926" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="2204" y ="2964" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="2242" cy="3002" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<rect x="2280" y ="3040" width="76" height="76" style="fill:rgb(255, 255, 0);stroke-width:4;stroke:rgb(0,0,255)" />
+<circle cx="2318" cy="3078" r="9" stroke="rgb(0,0,255)" stroke-width="4" fill = "blue"/>
+<line x1="798" y1="1558" x2="2318" y2="3078" style="stroke:rgb(0,0,255);stroke-width:4" />
+</svg>
