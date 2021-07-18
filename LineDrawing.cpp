@@ -2,11 +2,6 @@
 using namespace std;
 FILE *fp;
 int x, y, px, py, dx, dy, y_las, x_las, g;
-int get_int(float x) {
-	float y = (int)x;
-	if (x - y >= 0.5)return (int)y + 1;
-	return (int)y;
-}
 void upd(int &zz) {
 	if (dx < 0 and dy < 0)
 		zz = zz + 1;
@@ -16,8 +11,27 @@ void upd(int &zz) {
 		zz = zz - 1;
 }
 void pr() {
-	fprintf(fp, "<rect x=\"%d\" y =\"%d\" width=\"%d\" height=\"%d\" style=\"fill:rgb(255, 255, 0);stroke-width:%d;stroke:rgb(0,0,255)\" />\n", x * g, y * g, g, g, max(g / 16, 2));
-	fprintf(fp, "<circle cx=\"%d\" cy=\"%d\" r=\"%d\" stroke=\"rgb(0,0,255)\" stroke-width=\"%d\" fill = \"blue\"/>\n", x * g + (g >> 1), y * g + (g >> 1), max(g / 8, 4), max(g / 16, 2));
+	// the box
+	fprintf(fp, "<rect x=\"%d\" y =\"%d\" width=\"%d\" height=\"%d\" style=\"fill:rgb(255, 255, 0);stroke-width:%d;stroke:rgb(0,0,255)\" />\n",
+	        // corner of cell
+	        x * g, y * g,
+	        // width
+	        g,
+	        // height
+	        g,
+	        // border width
+	        max(g / 16, 2)
+	       );
+
+	// the circle
+	fprintf(fp, "<circle cx=\"%d\" cy=\"%d\" r=\"%d\" stroke=\"rgb(0,0,255)\" stroke-width=\"%d\" fill = \"blue\"/>\n",
+	        // center
+	        x * g + (g >> 1), y * g + (g >> 1),
+	        // radius
+	        max(g / 8, 4),
+	        // border width
+	        max(g / 16, 2)
+	       );
 }
 int main() {
 	int x1, x2, y1, y2;
@@ -34,7 +48,6 @@ int main() {
 	fprintf(fp, "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n\n");
 	dx = x2 - x1,
 	dy = y2 - y1,
-	// fprintf(fp, "<svg width=\"1600px\" height=\"1600px\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n");
 	x = x1,
 	y = y1,
 	px = 2 * abs(dy) - abs(dx);
