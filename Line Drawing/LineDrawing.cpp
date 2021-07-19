@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include "bits/stdc++.h"
 using namespace std;
 
 FILE *fp;
@@ -107,7 +107,6 @@ void printPoints(int x1, int y1, int x2, int y2) {
 		}
 	}
 }
-
 
 int main() {
 	// INPUT AND SET PARAMETERS
