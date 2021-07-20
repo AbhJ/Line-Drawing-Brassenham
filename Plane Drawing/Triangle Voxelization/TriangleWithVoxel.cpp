@@ -73,7 +73,7 @@ void xIsUnknown(float a, float b, float c, float d) {
 	int lowY = min({y1, y2, y3}), highY = max({y1, y2, y3});
 	int lowZ = min({z1, z2, z3}), highZ = max({z1, z2, z3});
 
-	vector<pair<int, int>>pixelsCenters;
+	vector<tuple<int, int, int>>voxelsCenters;
 
 	for (int y = lowY; y <= highY; y++) {
 		for (int z = lowZ; z <= highZ; z++) {
@@ -82,23 +82,21 @@ void xIsUnknown(float a, float b, float c, float d) {
 				// SINCE THERE IS A BIJECTION WE HAVE ONE PIXEL PER VOXEL HERE
 				// ALSO, SINCE PROJECTION ON YZ PLANE X IS 0
 
-				pixelsCenters.emplace_back(y, z);
+				voxelsCenters.emplace_back(tuple<int, int, int>(0, y, z));
 			}
 		}
+
 	}
 
-	vector<tuple<int, int, int>>voxelsCenters;
-
-	for (auto &[y, z] : pixelsCenters) {
+	for (auto &[x, y, z] : voxelsCenters) {
 		// FINDING UPPER AND LOWER LIMITS ON X
 		float upperLimit = ((max(abs(a), abs(b), abs(c)) / 2.0) - (b * (float)y + c * (float)z + d)) / a;
 		float lowerLimit = (- (max(abs(a), abs(b), abs(c)) / 2.0) - (b * (float)y + c * (float)z + d)) / a;
-		for (int x = lowerLimit + 1; x <= upperLimit; x++) {
-			voxelsCenters.emplace_back(x, y, z);
-		}
+		assert(upperLimit - lowerLimit <= 1.0);
+		x = (int)upperLimit;
 	}
-
 }
+
 
 void yIsUnknown(float a, float b, float c, float d) {
 

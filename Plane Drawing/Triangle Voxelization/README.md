@@ -1,6 +1,6 @@
-Triangle voxelization:
+Triangle voxelization:  
 
-INPUT: A(x1, y1, z1), B(x2, y2, z2), C(x3, y3, z3).
+INPUT: A(x1, y1, z1), B(x2, y2, z2), C(x3, y3, z3).  
 OUTPUT: Voxelized triangle
 
 Steps:
