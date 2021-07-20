@@ -1,6 +1,49 @@
 #include "bits/stdc++.h"
 using namespace std;
 
+float area(float x1, float y1, float x2, float y2, float x3, float y3) {
+	return abs((x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2.0);
+}
+
+bool isInside(float x1, float y1, float x2, float y2, float x3, float y3, float x, float y) {
+	// A FUNCTION TO CHECK WHETHER POINT P(x, y) LIES INSIDE THE TRIANGLE FORMED BY A(x1, y1), B(x2, y2) AND C(x3, y3)
+
+	// CALCULATE AREA OF TRIANGLE ABC
+	float A = area(x1, y1, x2, y2, x3, y3);
+
+	// CALCULATE AREA OF TRIANGLE PBC
+	float A1 = area(x, y, x2, y2, x3, y3);
+
+	// CALCULATE AREA OF TRIANGLE PAC
+	float A2 = area(x1, y1, x, y, x3, y3);
+
+	// CALCULATE AREA OF TRIANGLE PAB
+	float A3 = area(x1, y1, x2, y2, x, y);
+
+	// CHECK IF SUM OF A1, A2 AND A3 IS SAME AS A
+	return A == A1 + A2 + A3;
+}
+
+bool check(int x1, int y1, int x2, int y2, int x3, int y3, int x, int y) {
+	vector<float>X1{(float)x1 - 0.5, (float)x1 + 0.5};
+	vector<float>Y1{(float)y1 - 0.5, (float)y1 + 0.5};
+	vector<float>X2{(float)x2 - 0.5, (float)x2 + 0.5};
+	vector<float>Y2{(float)y2 - 0.5, (float)y2 + 0.5};
+	vector<float>X3{(float)x3 - 0.5, (float)x3 + 0.5};
+	vector<float>Y3{(float)y3 - 0.5, (float)y3 + 0.5};
+
+	// IF THE PIXEL IS WITHIN 0.5 OF ANY BOUNDARY IT IS A PART OF THE PIXELIZATION
+	for (auto x_1 : X1)
+		for (auto x_2 : X2)
+			for (auto x_3 : X3)
+				for (auto y_1 : Y1)
+					for (auto y_2 : Y2)
+						for (auto y_3 : Y3)
+							if (isInside(x_1, y_1, x_2, y_2, x_3, y_3, x, y))
+								return 1;
+	return 0;
+}
+
 tuple<float, float, float, float> equationOfPlane(
     float x1, float y1, float z1,
     float x2, float y2, float z2,
@@ -19,11 +62,30 @@ tuple<float, float, float, float> equationOfPlane(
 	float d = - a * x1 - b * y1 - c * z1;
 
 	// ax+by+cz+d IS THE EQUATION OF THE PLANE
-
 	return tuple<float, float, float, float>(a, b, c, d);
 }
 
 void xIsUnknown() {
+	// EQUATION OF PLANE OF YZ PLANE IS b j' + c k' + d = 0
+	// THE TRIANGLE PROJECTED ON YZ PLANE HAS VERTICES
+	// (y1, z1), (y2, z2), (y3, z3)
+
+	int lowY = min({y1, y2, y3}), highY = max({y1, y2, y3});
+	int lowZ = min({z1, z2, z3}), highZ = max({z1, z2, z3});
+
+	vector<tuple<int, int, int>>voxelsCenters;
+
+	for (int y = lowY; y <= highY; y++) {
+		for (int z = lowZ; z <= highZ; z++) {
+			if (check(y1, z1, y2, z2, y3, z3, y, z)) {
+				// THIS CREATES A PIXEL AT (0, y, z)
+				// SINCE THERE IS A BIJECTION WE HAVE ONE PIXEL PER VOXEL HERE
+				// ALSO, SINCE PROJECTION ON YZ PLANE X IS 0
+
+				voxelsCenters.emplace_back(tuple<int, int, int>(0, y, z));
+			}
+		}
+	}
 
 }
 
