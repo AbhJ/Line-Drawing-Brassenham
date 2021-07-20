@@ -62,10 +62,10 @@ tuple<float, float, float, float> equationOfPlane(
 	float d = - a * x1 - b * y1 - c * z1;
 
 	// ax+by+cz+d IS THE EQUATION OF THE PLANE
-	return tuple<float, float, float, float>(a, b, c, d);
+	return make_tuple(a, b, c, d);
 }
 
-void xIsUnknown() {
+void xIsUnknown(float a, float b, float c, float d) {
 	// EQUATION OF PLANE OF YZ PLANE IS b j' + c k' + d = 0
 	// THE TRIANGLE PROJECTED ON YZ PLANE HAS VERTICES
 	// (y1, z1), (y2, z2), (y3, z3)
@@ -73,7 +73,7 @@ void xIsUnknown() {
 	int lowY = min({y1, y2, y3}), highY = max({y1, y2, y3});
 	int lowZ = min({z1, z2, z3}), highZ = max({z1, z2, z3});
 
-	vector<tuple<int, int, int>>voxelsCenters;
+	vector<pair<int, int>>pixelsCenters;
 
 	for (int y = lowY; y <= highY; y++) {
 		for (int z = lowZ; z <= highZ; z++) {
@@ -82,18 +82,29 @@ void xIsUnknown() {
 				// SINCE THERE IS A BIJECTION WE HAVE ONE PIXEL PER VOXEL HERE
 				// ALSO, SINCE PROJECTION ON YZ PLANE X IS 0
 
-				voxelsCenters.emplace_back(tuple<int, int, int>(0, y, z));
+				pixelsCenters.emplace_back(y, z);
 			}
+		}
+	}
+
+	vector<tuple<int, int, int>>voxelsCenters;
+
+	for (auto &[y, z] : pixelsCenters) {
+		// FINDING UPPER AND LOWER LIMITS ON X
+		float upperLimit = ((max(abs(a), abs(b), abs(c)) / 2.0) - (b * (float)y + c * (float)z + d)) / a;
+		float lowerLimit = (- (max(abs(a), abs(b), abs(c)) / 2.0) - (b * (float)y + c * (float)z + d)) / a;
+		for (int x = lowerLimit + 1; x <= upperLimit; x++) {
+			voxelsCenters.emplace_back(x, y, z);
 		}
 	}
 
 }
 
-void yIsUnknown() {
+void yIsUnknown(float a, float b, float c, float d) {
 
 }
 
-void zIsUnknown() {
+void zIsUnknown(float a, float b, float c, float d) {
 
 }
 
@@ -109,11 +120,11 @@ int main() {
 
 	// NORMAL VECTOR IS a i' + b j' + c k' + d = 0
 	if (a == max({a, b, c}))
-		xIsUnknown();
+		xIsUnknown(a, b, c, d);
 	else if (b == max({a, b, c}))
-		yIsUnknown();
+		yIsUnknown(a, b, c, d);
 	else if (c == max({a, b, c}))
-		zIsUnknown();
+		zIsUnknown(a, b, c, d);
 	else
 		cerr << "Error";
 	return 0;
