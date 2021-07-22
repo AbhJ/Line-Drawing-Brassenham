@@ -213,11 +213,7 @@ void zIsUnknown(double a, double b, double c, double d) {
 }
 
 int main() {
-	cout << "Please enter the vertices of the triangle\n
-	     x1 y1 z1\n
-	     x2 y2 z2\n
-	     x3 y3 z3\n
-	     ";
+	cout << "Please enter the vertices of the triangle\nx1 y1 z1\nx2 y2 z2\nx3 y3 z3\n";
 	cin >> x_1 >> y_1 >> z_1 >> x_2 >> y_2 >> z_2 >> x_3 >> y_3 >> z_3;
 
 	// INPUT THE 3D TRIANGLE
