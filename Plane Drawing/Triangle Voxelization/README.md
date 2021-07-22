@@ -1,7 +1,7 @@
 Triangle voxelization:  
 
 INPUT: A(x1, y1, z1), B(x2, y2, z2), C(x3, y3, z3).  
-OUTPUT: Voxelized triangle
+OUTPUT: Voxelized triangle (obj file)
 
 Steps:
 1) Find the equation of the plane of the input triangle ABC.
@@ -15,4 +15,6 @@ coordinates of each voxel of ABC.
 7) Solve the equation -max{ |a|, |b|, |c| }/2 < ax+by+cz+d <= max{ |a|, |b|, |c| }/2
 to find the third coordinate (Why? Already explained in the meeting).
 8) Store and view the triangle in a.obj.
-NOTE: You may use meshlab for visualization, as discussed in the meeting.
+
+Commands after Running Code:
+1) meshlab a.obj
