@@ -152,14 +152,72 @@ void xIsUnknown(double a, double b, double c, double d) {
 
 
 void yIsUnknown(double a, double b, double c, double d) {
+	int lowX = min({x_1, x_2, x_3}), highX = max({x_1, x_2, x_3});
+	int lowZ = min({z_1, z_2, z_3}), highZ = max({z_1, z_2, z_3});
 
+	vector<tuple<int, int, int>>voxelsCenters;
+
+	for (int x = lowX; x <= highX; x++) {
+		for (int z = lowZ; z <= highZ; z++) {
+			if (check(x_1, z_1, x_2, z_2, x_3, z_3, x, z)) {
+				// THIS CREATES A PIXEL AT (x, 0, z)
+				// SINCE THERE IS A BIJECTION WE HAVE ONE PIXEL PER VOXEL HERE
+				// ALSO, SINCE PROJECTION ON XZ PLANE Y IS 0
+
+				voxelsCenters.emplace_back(tuple<int, int, int>(x, 0, z));
+			}
+		}
+
+	}
+
+	for (auto &[x, y, z] : voxelsCenters) {
+		// FINDING UPPER AND LOWER LIMITS ON Y
+		double upperLimit = ((max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (double)x + c * (double)z + d)) / b;
+		double lowerLimit = (- (max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (double)x + c * (double)z + d)) / b;
+		assert(upperLimit - lowerLimit <= 1.0);
+		y = (int)upperLimit;
+	}
+
+	// PLOTTING THE VOXELS TO CUBES SURROUNDING THEM
+	setObj(voxelsCenters);
 }
 
 void zIsUnknown(double a, double b, double c, double d) {
+	int lowX = min({x_1, x_2, x_3}), highX = max({x_1, x_2, x_3});
+	int lowY = min({y_1, y_2, y_3}), highY = max({y_1, y_2, y_3});
 
+	vector<tuple<int, int, int>>voxelsCenters;
+
+	for (int x = lowX; x <= highX; x++) {
+		for (int y = lowY; y <= highY; y++) {
+			if (check(x_1, y_1, x_2, y_2, x_3, y_3, x, y)) {
+				// THIS CREATES A PIXEL AT (x, y, 0)
+				// SINCE THERE IS A BIJECTION WE HAVE ONE PIXEL PER VOXEL HERE
+				// ALSO, SINCE PROJECTION ON XY PLANE Z IS 0
+
+				voxelsCenters.emplace_back(tuple<int, int, int>(x, y, 0));
+			}
+		}
+	}
+
+	for (auto &[x, y, z] : voxelsCenters) {
+		// FINDING UPPER AND LOWER LIMITS ON Z
+		double upperLimit = ((max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (double)x + b * (double)y + d)) / c;
+		double lowerLimit = (- (max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (double)x + b * (double)y + d)) / c;
+		assert(upperLimit - lowerLimit <= 1.0);
+		z = (int)upperLimit;
+	}
+
+	// PLOTTING THE VOXELS TO CUBES SURROUNDING THEM
+	setObj(voxelsCenters);
 }
 
 int main() {
+	cout << "Please enter the vertices of the triangle\n
+	     x1 y1 z1\n
+	     x2 y2 z2\n
+	     x3 y3 z3\n
+	     ";
 	cin >> x_1 >> y_1 >> z_1 >> x_2 >> y_2 >> z_2 >> x_3 >> y_3 >> z_3;
 
 	// INPUT THE 3D TRIANGLE
