@@ -70,13 +70,13 @@ void setObj(vector<tuple<int, int, int>>& voxelsCenters) {
 	for (auto &[x, y, z] : voxelsCenters) {
 		vector<tuple<int, int, int>> verticesOfVoxels{
 			{0, 0, 0},
-			{10, 0, 0},
-			{10, 10, 0},
-			{0, 10, 0},
-			{0, 0, 10},
-			{10, 0, 10},
-			{10, 10, 10},
-			{0, 10, 10}
+			{1, 0, 0},
+			{1, 1, 0},
+			{0, 1, 0},
+			{0, 0, 1},
+			{1, 0, 1},
+			{1, 1, 1},
+			{0, 1, 1}
 		};
 		for (auto &[xx, yy, zz] : verticesOfVoxels) {
 			xx += x, yy += y, zz += z;
