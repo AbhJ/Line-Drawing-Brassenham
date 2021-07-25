@@ -224,7 +224,7 @@ void printNumberOfVoxels() {
 		file.close();
 	}
 	assert(count % 14 == 0);
-	cout << "Total number of voxels generated : " << count << "\n";
+	cout << "Total number of voxels generated : " << count / 14 << "\n";
 }
 
 int main() {
