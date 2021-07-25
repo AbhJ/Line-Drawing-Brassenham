@@ -140,7 +140,7 @@ void xIsUnknown(double a, double b, double c, double d) {
 		// FINDING UPPER AND LOWER LIMITS ON X
 		double upperLimit = ((max({abs(a), abs(b), abs(c)}) / 2.0) - (b * (double)y + c * (double)z + d)) / a;
 		double lowerLimit = (- (max({abs(a), abs(b), abs(c)}) / 2.0) - (b * (double)y + c * (double)z + d)) / a;
-		assert(upperLimit - lowerLimit <= 1.0);
+		// assert(upperLimit - lowerLimit <= 1.0);
 		x = (int)upperLimit;
 	}
 
@@ -174,7 +174,7 @@ void yIsUnknown(double a, double b, double c, double d) {
 		// FINDING UPPER AND LOWER LIMITS ON Y
 		double upperLimit = ((max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (double)x + c * (double)z + d)) / b;
 		double lowerLimit = (- (max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (double)x + c * (double)z + d)) / b;
-		assert(upperLimit - lowerLimit <= 1.0);
+		// assert(upperLimit - lowerLimit <= 1.0);
 		y = (int)upperLimit;
 	}
 
@@ -204,7 +204,7 @@ void zIsUnknown(double a, double b, double c, double d) {
 		// FINDING UPPER AND LOWER LIMITS ON Z
 		double upperLimit = ((max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (double)x + b * (double)y + d)) / c;
 		double lowerLimit = (- (max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (double)x + b * (double)y + d)) / c;
-		assert(upperLimit - lowerLimit <= 1.0);
+		// assert(upperLimit - lowerLimit <= 1.0);
 		z = (int)upperLimit;
 	}
 
@@ -212,10 +212,26 @@ void zIsUnknown(double a, double b, double c, double d) {
 	setObj(voxelsCenters);
 }
 
+void printNumberOfVoxels() {
+	string line;
+	ifstream file("a.obj");
+	int count = - 1;
+	if (file.is_open()) {
+		while (!file.eof()) {
+			getline(file, line);
+			count++;
+		}
+		file.close();
+	}
+	assert(count % 14 == 0);
+	cout << "Total number of voxels generated : " << count << "\n";
+}
+
 int main() {
 	cout << "Please enter the vertices of the triangle\nx1 y1 z1\nx2 y2 z2\nx3 y3 z3\n";
 	cin >> x_1 >> y_1 >> z_1 >> x_2 >> y_2 >> z_2 >> x_3 >> y_3 >> z_3;
 
+	cout << "Printing meshlab object to a.obj\n";
 	// INPUT THE 3D TRIANGLE
 	// A(x_1, y_1, z_1), B(x_2, y_2, z_2), C(x_3, y_3, z_3)
 
@@ -231,5 +247,6 @@ int main() {
 		zIsUnknown(a, b, c, d);
 	else
 		cerr << "Error";
+	printNumberOfVoxels();
 	return 0;
 }

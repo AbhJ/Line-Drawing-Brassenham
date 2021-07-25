@@ -19,5 +19,6 @@ to find the third coordinate (Why? Already explained in the meeting).
 Commands after Running Code:
 1) meshlab a.obj
 
-Demonstration 
+Demonstration:  
+  
 ![Triangle voxelization Demonstration](https://github.com/AbhJ/Line-Drawing-Brassenham/blob/master/Plane%20Drawing/Triangle%20Voxelization/demoTriangleVoxelisation.gif?raw=true)
