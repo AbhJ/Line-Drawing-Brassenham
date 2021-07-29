@@ -1,36 +1,36 @@
 #include "bits/stdc++.h"
 using namespace std;
 
-double area(double x_1, double y_1, double x_2, double y_2, double x_3, double y_3) {
+long double area(long double x_1, long double y_1, long double x_2, long double y_2, long double x_3, long double y_3) {
 	return abs((x_1 * (y_2 - y_3) + x_2 * (y_3 - y_1) + x_3 * (y_1 - y_2)) / 2.0);
 }
 
-bool isInside(double x_1, double y_1, double x_2, double y_2, double x_3, double y_3, double x, double y) {
+bool isInside(long double x_1, long double y_1, long double x_2, long double y_2, long double x_3, long double y_3, long double x, long double y) {
 	// A FUNCTION TO CHECK WHETHER POINT P(x, y) LIES INSIDE THE TRIANGLE FORMED BY A(x_1, y_1), B(x_2, y_2) AND C(x_3, y_3)
 
 	// CALCULATE AREA OF TRIANGLE ABC
-	double A = area(x_1, y_1, x_2, y_2, x_3, y_3);
+	long double A = area(x_1, y_1, x_2, y_2, x_3, y_3);
 
 	// CALCULATE AREA OF TRIANGLE PBC
-	double A1 = area(x, y, x_2, y_2, x_3, y_3);
+	long double A1 = area(x, y, x_2, y_2, x_3, y_3);
 
 	// CALCULATE AREA OF TRIANGLE PAC
-	double A2 = area(x_1, y_1, x, y, x_3, y_3);
+	long double A2 = area(x_1, y_1, x, y, x_3, y_3);
 
 	// CALCULATE AREA OF TRIANGLE PAB
-	double A3 = area(x_1, y_1, x_2, y_2, x, y);
+	long double A3 = area(x_1, y_1, x_2, y_2, x, y);
 
 	// CHECK IF SUM OF A1, A2 AND A3 IS SAME AS A
 	return A == A1 + A2 + A3;
 }
 
-bool check(int x_1, int y_1, int x_2, int y_2, int x_3, int y_3, int x, int y) {
-	vector<double>X1{(double)x_1 - 0.5, (double)x_1 + 0.5};
-	vector<double>Y1{(double)y_1 - 0.5, (double)y_1 + 0.5};
-	vector<double>X2{(double)x_2 - 0.5, (double)x_2 + 0.5};
-	vector<double>Y2{(double)y_2 - 0.5, (double)y_2 + 0.5};
-	vector<double>X3{(double)x_3 - 0.5, (double)x_3 + 0.5};
-	vector<double>Y3{(double)y_3 - 0.5, (double)y_3 + 0.5};
+bool check(long long x_1, long long y_1, long long x_2, long long y_2, long long x_3, long long y_3, long long x, long long y) {
+	vector<long double>X1{(long double)x_1 - 0.49999999, (long double)x_1 + 0.49999999};
+	vector<long double>Y1{(long double)y_1 - 0.49999999, (long double)y_1 + 0.49999999};
+	vector<long double>X2{(long double)x_2 - 0.49999999, (long double)x_2 + 0.49999999};
+	vector<long double>Y2{(long double)y_2 - 0.49999999, (long double)y_2 + 0.49999999};
+	vector<long double>X3{(long double)x_3 - 0.49999999, (long double)x_3 + 0.49999999};
+	vector<long double>Y3{(long double)y_3 - 0.49999999, (long double)y_3 + 0.49999999};
 
 	// IF THE PIXEL IS WITHIN 0.5 OF ANY BOUNDARY IT IS A PART OF THE PIXELIZATION
 	for (auto x_1 : X1)
@@ -44,31 +44,44 @@ bool check(int x_1, int y_1, int x_2, int y_2, int x_3, int y_3, int x, int y) {
 	return 0;
 }
 
-tuple<double, double, double, double> equationOfPlane(
-    double x_1, double y_1, double z_1,
-    double x_2, double y_2, double z_2,
-    double x_3, double y_3, double z_3) {
+tuple<long double, long double, long double, long double> equationOfPlane(
+    long double x_1, long double y_1, long double z_1,
+    long double x_2, long double y_2, long double z_2,
+    long double x_3, long double y_3, long double z_3) {
 
-	double a1 = x_2 - x_1;
-	double b1 = y_2 - y_1;
-	double c1 = z_2 - z_1;
-	double a2 = x_3 - x_1;
-	double b2 = y_3 - y_1;
-	double c2 = z_3 - z_1;
+	long double a1 = x_2 - x_1;
+	long double b1 = y_2 - y_1;
+	long double c1 = z_2 - z_1;
+	long double a2 = x_3 - x_1;
+	long double b2 = y_3 - y_1;
+	long double c2 = z_3 - z_1;
 
-	double a = b1 * c2 - b2 * c1;
-	double b = a2 * c1 - a1 * c2;
-	double c = a1 * b2 - b1 * a2;
-	double d = - a * x_1 - b * y_1 - c * z_1;
+	long double a = b1 * c2 - b2 * c1;
+	long double b = a2 * c1 - a1 * c2;
+	long double c = a1 * b2 - b1 * a2;
+	long double d = - a * x_1 - b * y_1 - c * z_1;
 
 	// ax+by+cz+d IS THE EQUATION OF THE PLANE
 	return make_tuple(a, b, c, d);
 }
 
-void setObj(vector<tuple<int, int, int>>& voxelsCenters) {
+void cleanse(vector<tuple<long long, long long, long long>>& voxelsCenters) {
+	vector<tuple<long long, long long, long long>> cleanesdVoxelCenters;
+	for (auto &[x, y, z] : voxelsCenters) {
+		if (x == LLONG_MIN or y == LLONG_MIN or z == LLONG_MIN) {
+			continue;
+		}
+		cleanesdVoxelCenters.emplace_back(x, y, z);
+	}
+	voxelsCenters = cleanesdVoxelCenters;
+}
+
+void setObj(vector<tuple<long long, long long, long long>>& voxelsCenters) {
+	// REMOVE WRONG VOXEL CENTERS
+	cleanse(voxelsCenters);
 	string toBeSavedIntoObj;
 	for (auto &[x, y, z] : voxelsCenters) {
-		vector<tuple<int, int, int>> verticesOfVoxels{
+		vector<tuple<long long, long long, long long>> verticesOfVoxels{
 			{0, 0, 0},
 			{1, 0, 0},
 			{1, 1, 0},
@@ -83,7 +96,7 @@ void setObj(vector<tuple<int, int, int>>& voxelsCenters) {
 		}
 
 		// WALLS ARE CREATED BY ORDERING POINTS PROPERLY
-		vector<tuple<int, int, int, int>>wallsOfVoxels{
+		vector<tuple<long long, long long, long long, long long>>wallsOfVoxels{
 			{1, 4, 3, 2},
 			{1, 2, 6, 5},
 			{5, 6, 7, 8},
@@ -110,27 +123,30 @@ void setObj(vector<tuple<int, int, int>>& voxelsCenters) {
 	ObjFileStream.close();
 }
 
-int x_1, y_1, z_1, x_2, y_2, z_2, x_3, y_3, z_3;
+void printNumberOfVoxels(vector<tuple<long long, long long, long long>>voxelsCenters) {
+	cout << "Total number of voxels generated : " << (long long)voxelsCenters.size() << "\n";
+}
 
+long long x_1, y_1, z_1, x_2, y_2, z_2, x_3, y_3, z_3;
 
-void xIsUnknown(double a, double b, double c, double d) {
+void xIsUnknown(long double a, long double b, long double c, long double d) {
 	// EQUATION OF PLANE OF YZ PLANE IS b j' + c k' + d = 0
 	// THE TRIANGLE PROJECTED ON YZ PLANE HAS VERTICES
 	// (y_1, z_1), (y_2, z_2), (y_3, z_3)
 
-	int lowY = min({y_1, y_2, y_3}), highY = max({y_1, y_2, y_3});
-	int lowZ = min({z_1, z_2, z_3}), highZ = max({z_1, z_2, z_3});
+	long long lowY = min({y_1, y_2, y_3}), highY = max({y_1, y_2, y_3});
+	long long lowZ = min({z_1, z_2, z_3}), highZ = max({z_1, z_2, z_3});
 
-	vector<tuple<int, int, int>>voxelsCenters;
+	vector<tuple<long long, long long, long long>>voxelsCenters;
 
-	for (int y = lowY; y <= highY; y++) {
-		for (int z = lowZ; z <= highZ; z++) {
+	for (long long y = lowY; y <= highY; y++) {
+		for (long long z = lowZ; z <= highZ; z++) {
 			if (check(y_1, z_1, y_2, z_2, y_3, z_3, y, z)) {
 				// THIS CREATES A PIXEL AT (0, y, z)
 				// SINCE THERE IS A BIJECTION WE HAVE ONE PIXEL PER VOXEL HERE
 				// ALSO, SINCE PROJECTION ON YZ PLANE X IS 0
 
-				voxelsCenters.emplace_back(tuple<int, int, int>(0, y, z));
+				voxelsCenters.emplace_back(tuple<long long, long long, long long>(0, y, z));
 			}
 		}
 
@@ -138,33 +154,33 @@ void xIsUnknown(double a, double b, double c, double d) {
 
 	for (auto &[x, y, z] : voxelsCenters) {
 		// FINDING UPPER AND LOWER LIMITS ON X
-		double upperLimit = ((max({abs(a), abs(b), abs(c)}) / 2.0) - (b * (double)y + c * (double)z + d)) / a;
-		double lowerLimit = (- (max({abs(a), abs(b), abs(c)}) / 2.0) - (b * (double)y + c * (double)z + d)) / a;
-		// assert(upperLimit - lowerLimit <= 1.0);
-		x = (int)upperLimit;
+		long double upperLimit = ((max({abs(a), abs(b), abs(c)}) / 2.0) - (b * (long double)y + c * (long double)z + d)) / a;
+		long double lowerLimit = (- (max({abs(a), abs(b), abs(c)}) / 2.0) - (b * (long double)y + c * (long double)z + d)) / a;
+		if (upperLimit - lowerLimit <= 1.0)
+			x = (long long)upperLimit;
+		else
+			x = LLONG_MIN;
 	}
 
 	// PLOTTING THE VOXELS TO CUBES SURROUNDING THEM
 	setObj(voxelsCenters);
+	printNumberOfVoxels(voxelsCenters);
 }
 
+void yIsUnknown(long double a, long double b, long double c, long double d) {
+	long long lowX = min({x_1, x_2, x_3}), highX = max({x_1, x_2, x_3});
+	long long lowZ = min({z_1, z_2, z_3}), highZ = max({z_1, z_2, z_3});
 
+	vector<tuple<long long, long long, long long>>voxelsCenters;
 
-
-void yIsUnknown(double a, double b, double c, double d) {
-	int lowX = min({x_1, x_2, x_3}), highX = max({x_1, x_2, x_3});
-	int lowZ = min({z_1, z_2, z_3}), highZ = max({z_1, z_2, z_3});
-
-	vector<tuple<int, int, int>>voxelsCenters;
-
-	for (int x = lowX; x <= highX; x++) {
-		for (int z = lowZ; z <= highZ; z++) {
+	for (long long x = lowX; x <= highX; x++) {
+		for (long long z = lowZ; z <= highZ; z++) {
 			if (check(x_1, z_1, x_2, z_2, x_3, z_3, x, z)) {
 				// THIS CREATES A PIXEL AT (x, 0, z)
 				// SINCE THERE IS A BIJECTION WE HAVE ONE PIXEL PER VOXEL HERE
 				// ALSO, SINCE PROJECTION ON XZ PLANE Y IS 0
 
-				voxelsCenters.emplace_back(tuple<int, int, int>(x, 0, z));
+				voxelsCenters.emplace_back(tuple<long long, long long, long long>(x, 0, z));
 			}
 		}
 
@@ -172,50 +188,59 @@ void yIsUnknown(double a, double b, double c, double d) {
 
 	for (auto &[x, y, z] : voxelsCenters) {
 		// FINDING UPPER AND LOWER LIMITS ON Y
-		double upperLimit = ((max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (double)x + c * (double)z + d)) / b;
-		double lowerLimit = (- (max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (double)x + c * (double)z + d)) / b;
-		// assert(upperLimit - lowerLimit <= 1.0);
-		y = (int)upperLimit;
+		long double upperLimit = ((max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (long double)x + c * (long double)z + d)) / b;
+		long double lowerLimit = (- (max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (long double)x + c * (long double)z + d)) / b;
+		if (upperLimit - lowerLimit <= 1.0)
+			y = (long long)upperLimit;
+		else
+			y = LLONG_MIN;
 	}
 
 	// PLOTTING THE VOXELS TO CUBES SURROUNDING THEM
 	setObj(voxelsCenters);
+	printNumberOfVoxels(voxelsCenters);
 }
 
-void zIsUnknown(double a, double b, double c, double d) {
-	int lowX = min({x_1, x_2, x_3}), highX = max({x_1, x_2, x_3});
-	int lowY = min({y_1, y_2, y_3}), highY = max({y_1, y_2, y_3});
+void zIsUnknown(long double a, long double b, long double c, long double d) {
+	long long lowX = min({x_1, x_2, x_3}), highX = max({x_1, x_2, x_3});
+	long long lowY = min({y_1, y_2, y_3}), highY = max({y_1, y_2, y_3});
 
-	vector<tuple<int, int, int>>voxelsCenters;
+	vector<tuple<long long, long long, long long>>voxelsCenters;
 
-	for (int x = lowX; x <= highX; x++) {
-		for (int y = lowY; y <= highY; y++) {
+	for (long long x = lowX; x <= highX; x++) {
+		for (long long y = lowY; y <= highY; y++) {
 			if (check(x_1, y_1, x_2, y_2, x_3, y_3, x, y)) {
 				// THIS CREATES A PIXEL AT (x, y, 0)
 				// SINCE THERE IS A BIJECTION WE HAVE ONE PIXEL PER VOXEL HERE
 				// ALSO, SINCE PROJECTION ON XY PLANE Z IS 0
 
-				voxelsCenters.emplace_back(tuple<int, int, int>(x, y, 0));
+				voxelsCenters.emplace_back(tuple<long long, long long, long long>(x, y, 0));
 			}
 		}
 	}
 
 	for (auto &[x, y, z] : voxelsCenters) {
 		// FINDING UPPER AND LOWER LIMITS ON Z
-		double upperLimit = ((max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (double)x + b * (double)y + d)) / c;
-		double lowerLimit = (- (max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (double)x + b * (double)y + d)) / c;
-		// assert(upperLimit - lowerLimit <= 1.0);
-		z = (int)upperLimit;
+		long double upperLimit = ((max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (long double)x + b * (long double)y + d)) / c;
+		long double lowerLimit = (- (max({abs(a), abs(b), abs(c)}) / 2.0) - (a * (long double)x + b * (long double)y + d)) / c;
+		if (upperLimit - lowerLimit <= 1.0)
+			z = (long long)upperLimit;
+		else
+			z = LLONG_MIN;
 	}
 
 	// PLOTTING THE VOXELS TO CUBES SURROUNDING THEM
 	setObj(voxelsCenters);
+	printNumberOfVoxels(voxelsCenters);
 }
 
-void printNumberOfVoxels() {
+void printNumberOfVoxelsFromFileSize() {
+	// THIS FUNCTION IS NOW NOT BEING USED
+	// DUE TO SLOW EXECUTION TIME
+
 	string line;
 	ifstream file("a.obj");
-	int count = - 1;
+	long long count = - 1;
 	if (file.is_open()) {
 		while (!file.eof()) {
 			getline(file, line);
@@ -227,15 +252,35 @@ void printNumberOfVoxels() {
 	cout << "Total number of voxels generated : " << count / 14 << "\n";
 }
 
+long long dis(long long x, long long y, long long z, long long X, long long Y, long long Z) {
+	return (x - X) * (x - X) + (y - Y) * (y - Y) + (z - Z) * (z - Z);
+}
+
+bool collinear() {
+	vector<long long> distances_of_sub_segments_squared{
+		dis(x_1, y_1, z_1, x_2, y_2, z_2),
+		dis(x_2, y_2, z_2, x_3, y_3, z_3),
+		dis(x_3, y_3, z_3, x_1, y_1, z_1),
+	};
+	sort(distances_of_sub_segments_squared.begin(), distances_of_sub_segments_squared.end());
+	return sqrt((long double)distances_of_sub_segments_squared[2]) == sqrt((long double)distances_of_sub_segments_squared[0]) + sqrt((long double)distances_of_sub_segments_squared[1]);
+}
+
 int main() {
 	cout << "Please enter the vertices of the triangle\nx1 y1 z1\nx2 y2 z2\nx3 y3 z3\n";
 	cin >> x_1 >> y_1 >> z_1 >> x_2 >> y_2 >> z_2 >> x_3 >> y_3 >> z_3;
+
+	// CHECK COLLINEARITY
+	if (collinear()) {
+		cout << "The input points are collinear\nNo triangle formation is possible\n";
+		return 0;
+	}
 
 	cout << "Printing meshlab object to a.obj\n";
 	// INPUT THE 3D TRIANGLE
 	// A(x_1, y_1, z_1), B(x_2, y_2, z_2), C(x_3, y_3, z_3)
 
-	double a, b, c, d;
+	long double a, b, c, d;
 	tie(a, b, c, d) = equationOfPlane(x_1, y_1, z_1, x_2, y_2, z_2, x_3, y_3, z_3);
 
 	// NORMAL VECTOR IS a i' + b j' + c k' + d = 0
@@ -247,6 +292,5 @@ int main() {
 		zIsUnknown(a, b, c, d);
 	else
 		cerr << "Error";
-	printNumberOfVoxels();
 	return 0;
 }
